@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleName</key><string>Guard WebView</string>
+    <key>CFBundleDisplayName</key><string>Guard</string>
+    <key>NSCameraUsageDescription</key><string>نحتاج الكاميرا لالتقاط الصور ورفع المستندات.</string>
+    <key>NSMicrophoneUsageDescription</key><string>نحتاج الميكروفون للمكالمات/التسجيل داخل الموقع.</string>
+    <key>NSPhotoLibraryUsageDescription</key><string>نحتاج الوصول للصور لاختيار ورفع الملفات.</string>
+    <key>NSLocationWhenInUseUsageDescription</key><string>نحتاج موقعك للتحقق من الحضور الجغرافي داخل الموقع.</string>
+    <key>WKAppBoundDomains</key>
+    <array>
+        <string>farfish.pythonanywhere.com</string>
+    </array>
+</dict>
+</plist>
