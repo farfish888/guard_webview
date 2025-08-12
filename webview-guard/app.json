@@ -6,38 +6,31 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "automatic",
+
     "icon": "./assets/icon.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "updates": { "fallbackToCacheTimeout": 0 },
+
     "assetBundlePatterns": ["**/*"],
+
     "ios": {
       "supportsTablet": true,
+      "bundleIdentifier": "com.farfish.guardwebview",
       "infoPlist": {
         "NSCameraUsageDescription": "نحتاج الكاميرا لالتقاط الصور ورفع المستندات.",
-        "NSMicrophoneUsageDescription": "نحتاج الميكروفون للمكالمات/التسجيل داخل الموقع.",
         "NSPhotoLibraryUsageDescription": "نحتاج الوصول للصور لاختيار ورفع الملفات.",
-        "NSLocationWhenInUseUsageDescription": "نحتاج موقعك للتحقق من الحضور الجغرافي داخل الموقع.",
+        "NSLocationWhenInUseUsageDescription": "نحتاج موقعك للتحقق من الحضور.",
         "WKAppBoundDomains": ["farfish.pythonanywhere.com"]
-      },
-      "bundleIdentifier": "com.yourname.guardwebview"
+      }
     },
+
     "android": {
-      "package": "com.yourname.guardwebview",
-      "permissions": [
-        "CAMERA",
-        "RECORD_AUDIO",
-        "ACCESS_COARSE_LOCATION",
-        "ACCESS_FINE_LOCATION",
-        "READ_EXTERNAL_STORAGE",
-        "WRITE_EXTERNAL_STORAGE"
-      ]
+      "package": "com.farfish.guardwebview"
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    }
+
+    "web": { "favicon": "./assets/favicon.png" }
   }
 }
